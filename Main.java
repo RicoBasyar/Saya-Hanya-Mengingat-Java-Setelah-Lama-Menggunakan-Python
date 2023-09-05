@@ -16,9 +16,9 @@ public class Main{
 
         /* Casting (Convert Tipe data kelebih besar atau kecil)
            Widening Casting (automatically) byte -> short -> char -> int -> long -> float -> double
-           Narrowing Casting (manually) double -> float -> long -> int -> char -> short -> byte 
-           Widening Casting Sesuai namanya melebarkan atau mengubah tipe data ke yang besar */
+           Narrowing Casting (manually) double -> float -> long -> int -> char -> short -> byte */
         
+        //Widening Casting Sesuai namanya melebarkan atau mengubah tipe data ke yang besar//i
         // Contoh Integer
         int myInt = 60;
         long myLong = myInt;
@@ -74,5 +74,10 @@ public class Main{
 
         int akarPangkat = (int) Math.sqrt(25); // Akar pangkat, Aslinya pake double cuma gw convert ke int.git a
         System.out.println(akarPangkat);
+
+        double randomNumber =  Math.random() * 101; // Angka Random dari 0 - 100
+        System.out.println(Math.round(randomNumber)); // Angka Random tadi ditampilin terus dibulatkan biar ga decimal
+
+        
     }
 }
