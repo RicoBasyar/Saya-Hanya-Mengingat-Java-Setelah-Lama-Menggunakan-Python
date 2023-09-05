@@ -67,6 +67,12 @@ public class Main{
 
         //=============================================================================================================//
         //===========================================Java Math=========================================================//
+        System.out.println(Math.max(10, 20));
 
+        int angkaMax = Math.max(5,10); // bisa pake max, min parameter (x,y)
+        System.out.println(angkaMax);
+
+        int akarPangkat = (int) Math.sqrt(25); // Akar pangkat, Aslinya pake double cuma gw convert ke int.git a
+        System.out.println(akarPangkat);
     }
 }
