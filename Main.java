@@ -78,6 +78,13 @@ public class Main{
         double randomNumber =  Math.random() * 101; // Angka Random dari 0 - 100
         System.out.println(Math.round(randomNumber)); // Angka Random tadi ditampilin terus dibulatkan biar ga decimal
 
-        
+        //=============================================================================================================//
+        //=============================================Java Boolean====================================================//
+    
+        boolean isJavaFun = true;
+        boolean isFishFun = false;
+
+        System.out.println(isJavaFun);
+        System.out.println(isFishFun);
     }
 }
