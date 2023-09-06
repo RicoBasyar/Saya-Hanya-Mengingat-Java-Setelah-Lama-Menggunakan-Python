@@ -100,8 +100,12 @@ public class Main{
         else {
             System.out.println("Kurang dari 15 anjay");
         }
-
+        // Dibawah ini contoh cepatnya pake if atau bisa dibilang short hand if else
         String resultX = (xIf <= 15) ? "Kurang dari 15" : "lebih dari 15";
-        System.out.println(resultX);
+        System.out.println(resultX); 
+
+        int age = 12;
+        String passGate = (age > 18) ? "Okey bruh you pass" : "You shall not pass";
+        System.out.println(passGate);
     }
 }
