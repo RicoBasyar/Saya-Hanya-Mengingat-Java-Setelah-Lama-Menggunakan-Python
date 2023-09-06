@@ -86,5 +86,22 @@ public class Main{
 
         System.out.println(isJavaFun);
         System.out.println(isFishFun);
+
+        //=============================================================================================================//
+        //=============================================Java If else====================================================//
+
+        int xIf = 14;
+
+        if(xIf > 15){
+            System.out.println("Anjay lebih dari 15");
+        }else if(xIf == 15){
+            System.out.println("Sama sama 15");
+        }
+        else {
+            System.out.println("Kurang dari 15 anjay");
+        }
+
+        String resultX = (xIf <= 15) ? "Kurang dari 15" : "lebih dari 15";
+        System.out.println(resultX);
     }
 }
