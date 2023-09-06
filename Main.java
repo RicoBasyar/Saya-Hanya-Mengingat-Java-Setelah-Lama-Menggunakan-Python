@@ -107,5 +107,36 @@ public class Main{
         int age = 12;
         String passGate = (age > 18) ? "Okey bruh you pass" : "You shall not pass";
         System.out.println(passGate);
+
+        //==================================================================================================//
+        //========================================Java Switch===============================================//
+        int switchIO = 0;
+        boolean IO;
+        switch(switchIO){
+            case 0:
+            System.out.println("Lampu mati");
+            break;
+            case 1:
+            System.out.println("Lampu nyala");
+            break;
+            default:
+            System.out.println("Bruhh switch on off cuma ada 1 sama 0");
+        }
+        
+        //===================================================================================================//
+        //=========================================Java Loops================================================//
+
+        int iLoop = 0;
+        while(iLoop < 16){
+            System.out.println(iLoop);
+            iLoop++;
+        }
+        System.out.println(iLoop + "<< ini Variabel iLoop setelah while");
+        do{
+            System.out.println("*");
+            iLoop++;
+        }while(iLoop < 30);
+        System.out.println(iLoop);
+        System.out.println(iLoop + "<< ini Variabel iLoop setelah do while");
     }
 }
